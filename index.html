@@ -4,9 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <title>Coding Quiz</title>
   </head>
+
   <body>
+    <div class="vh-100 bg-dark d-flex align-items-center">
+      <main class="row col-12 justify-content-center">
+        <div class="bg-light col-9 rounded p-3">
+          <div id="header" class="row justify-content-between mb-5 mx-3">
+            <h3 class="p-2 text-primary">View High Score</h3>
+            <article id="timer" class="p-2"></article>
+          </div>
+
+          <section class="flex-column d-flex align-items-center p-2">
+            <div id="start-page">
+              <div class="flex-column d-flex align-items-center p-2">
+                <h1 class="m-3">Coding Quiz</h1>
+                <p class="m-3">
+                  Try to answer 10 questions correctly in the shortest amount of
+                  time!
+                </p>
+                <button id="start-btn" class="m-3 btn btn-primary">
+                  Start!
+                </button>
+              </div>
+            </div>
+            <div id="questions" class="d-none">
+              <div class="flex-column d-flex align-items-center p-2">
+                <h2 class="m-3">Question 1:</h2>
+                <p>What?</p>
+                <div>
+                  <button class="m-3 btn btn-primary">Answer 1</button>
+                  <button class="m-3 btn btn-primary">Answer 2</button>
+                  <button class="m-3 btn btn-primary">Answer 3</button>
+                  <button class="m-3 btn btn-primary">Answer 4</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
