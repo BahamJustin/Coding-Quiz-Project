@@ -16,11 +16,13 @@
       <main class="row col-12 justify-content-center">
         <div class="bg-light col-9 rounded p-3">
           <div id="header" class="row justify-content-between mb-5 mx-3">
-            <h3 class="p-2 text-primary">View High Score</h3>
+            <btn id="highscore" class="p-2 btn btn-primary"
+              >View High Score</btn
+            >
             <article id="timer" class="p-2"></article>
           </div>
 
-          <section class="flex-column d-flex align-items-center p-2">
+          <div class="flex-column d-flex align-items-center p-2">
             <div id="start-page">
               <div class="flex-column d-flex align-items-center p-2">
                 <h1 class="m-3">Coding Quiz</h1>
@@ -33,19 +35,211 @@
                 </button>
               </div>
             </div>
-            <div id="questions" class="d-none">
-              <div class="flex-column d-flex align-items-center p-2">
-                <h2 class="m-3">Question 1:</h2>
-                <p>What?</p>
-                <div>
-                  <button class="m-3 btn btn-primary">Answer 1</button>
-                  <button class="m-3 btn btn-primary">Answer 2</button>
-                  <button class="m-3 btn btn-primary">Answer 3</button>
-                  <button class="m-3 btn btn-primary">Answer 4</button>
+
+            <section id="quiz-questions">
+              <div id="question-1" class="question d-none">
+                <div class="flex-column d-flex align-items-center p-2">
+                  <h2 class="m-3">Question 1:</h2>
+                  <p>What?</p>
+                  <div>
+                    <button class="correct m-3 btn btn-primary">
+                      Answer 1
+                    </button>
+                    <button class="wrong m-3 btn btn-primary">Answer 2</button>
+                    <button class="wrong m-3 btn btn-primary">Answer 3</button>
+                    <button class="wrong m-3 btn btn-primary">Answer 4</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+              <div id="question-2" class="question d-none">
+                <div class="flex-column d-flex align-items-center p-2">
+                  <h2 class="m-3">Question 2:</h2>
+                  <p>What?</p>
+                  <div>
+                    <button class="correct m-3 btn btn-primary">
+                      Answer 1
+                    </button>
+                    <button class="wrong m-3 btn btn-primary">Answer 2</button>
+                    <button class="wrong m-3 btn btn-primary">Answer 3</button>
+                    <button class="wrong m-3 btn btn-primary">Answer 4</button>
+                  </div>
+                </div>
+                <div id="question-3" class="questiond-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 3:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-4" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 4:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-5" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 5:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-6" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 6:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-7" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 7:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-8" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 8:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="question-9" class="question d-none">
+                  <div class="flex-column d-flex align-items-center p-2">
+                    <h2 class="m-3">Question 9:</h2>
+                    <p>What?</p>
+                    <div>
+                      <button class="correct m-3 btn btn-primary">
+                        Answer 1
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 2
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 3
+                      </button>
+                      <button class="wrong m-3 btn btn-primary">
+                        Answer 4
+                      </button>
+                    </div>
+                  </div>
+                  <div id="question-10" class="question d-none">
+                    <div class="flex-column d-flex align-items-center p-2">
+                      <h2 class="m-3">Question 10:</h2>
+                      <p>What?</p>
+                      <div>
+                        <button class="correct m-3 btn btn-primary">
+                          Answer 1
+                        </button>
+                        <button class="wrong m-3 btn btn-primary">
+                          Answer 2
+                        </button>
+                        <button class="wrong m-3 btn btn-primary">
+                          Answer 3
+                        </button>
+                        <button class="wrong m-3 btn btn-primary">
+                          Answer 4
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="Game-Over" class="d-none">
+              <h3>Game Over</h3>
+              <p>Your High Score</p>
+              <btn class="m-3 btn btn-primary">Restart</btn>
+            </section>
+
+            <section id="High-Score" class="d-none">
+              <h3>High Scores</h3>
+              <ol>
+                <li>High Score 1</li>
+              </ol>
+            </section>
+          </div>
         </div>
       </main>
     </div>
