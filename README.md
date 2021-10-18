@@ -1,17 +1,12 @@
 # Coding Quiz Project
 
-Acceptance
+![Screenshot](/assets/images/Screenshot.png)
 
-- WHEN I click the start button
-  THEN a timer starts and I am presented with a question
+## Built With
 
-- WHEN I answer a question
-  THEN I am presented with another question
+- JQuery
+- Bootstrap
 
-- WHEN I answer a question incorrectly
-  THEN time is subtracted from the clock
-- WHEN all questions are answered or the timer reaches 0
-  THEN the game is over
+## Website Link
 
-- WHEN the game is over
-  THEN I can save my initials and score
+- https://bahamjustin.github.io/Coding-Quiz-Project/
